@@ -3,3 +3,10 @@ version: 0.1.0
 author: Kier Davis <kierdavis@gmail.com>
 
 main: com.kierdavis.clearfx.ClearFX
+
+commands:
+    clearfx:
+        description: Clears potion effects
+        permission: clearfx.command
+        permission-message: "You don't have permission (clearfx.command)"
+        usage: /clearfx [player]
