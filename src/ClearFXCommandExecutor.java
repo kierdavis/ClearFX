@@ -43,7 +43,7 @@ public class ClearFXCommandExecutor implements CommandExecutor {
                 return true;
             }
             
-            if (!sender instanceof Player) {
+            if (!(sender instanceof Player)) {
                 sender.sendMessage(ChatColor.YELLOW + "You must be a player to be able to use this command.");
                 return true;
             }
