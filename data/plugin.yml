@@ -1,5 +1,5 @@
 name: ClearFX
-version: 0.1.0
+version: 0.1.1
 author: Kier Davis <kierdavis@gmail.com>
 
 main: com.kierdavis.clearfx.ClearFX
@@ -10,3 +10,16 @@ commands:
         permission: clearfx.command
         permission-message: "You don't have permission (clearfx.command)"
         usage: /clearfx [player]
+
+permissions:
+    clearfx.clear:
+        description: Gives access to the /clearfx command
+        default: op
+    
+    clearfx.clear.self:
+        description: Gives access to clear own effects
+        default: op
+    
+    clearfx.clear.others:
+        description: Gives access to clear other players' effects
+        default: op
