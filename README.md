@@ -1,3 +1,5 @@
+**PLEASE NOTE: I no longer actively maintain this project. Pull requests are welcome, but development has halted and issues are unlikely to gain a response.**
+
 ClearFX is a (very) lightweight plugin to allow administrators to clear players' potion effects. It is useful to force players using invisibility potions to become visible, or to remove speed/strength effects being used to cheat in PvP arenas.
 
 # Commands
